@@ -3,8 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/png">
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <title>Blogr</title>
 <link rel="stylesheet" href="Ccode.css">
 
@@ -14,7 +13,7 @@
 
 
 
-    <div class="intro">
+    <div class="intro" data-aos="fade-left">
        
        
          
@@ -50,7 +49,7 @@
 
 
 
-    <div class="middle">
+    <div class="middle" data-aos="fade-up">
     <h2>Designed for the future</h2>
 
     <img src="illustration-editor-desktop.svg">
@@ -72,7 +71,7 @@
     </div>
 
 
-    <div class="pub">
+    <div class="pub" data-aos="fade-up">
 
      <img src="illustration-phones.svg">
  
@@ -84,7 +83,7 @@
     </div>
 
 
-    <div class="last">
+    <div class="last" data-aos="fade-up">
     <img src="illustration-laptop-desktop.svg">
     <div class="sectioncontainer">
         <section >
@@ -100,7 +99,7 @@
     </div>
 
 
-    <footer>
+    <footer data-aos="fade-up">
         <img src="logo.svg">
         <nav class="nav1">
             <h3>Product</h3>
@@ -129,9 +128,16 @@
 
     </footer>
 
-    <span>Challenge by <a href="https://www.frontendmentor.io">Frontend Mentor.</a> Coded by <a href="https://www.facebook.com/mohamedlhajali.16">Haj Ali Mohamed.</a> </span>
+    <span>Challenge by <a href="https://www.frontendmentor.io">Frontend Mentor.</a> Coded by <a href="https://www.facebook.com/mohamedlhajali.16">Haj Ali Mohamed.</a> </span >
 
 <script src="jscode.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      offset:400,
+      duration:1000
+  });
+</script>
 
 </body>
 
